@@ -1,7 +1,10 @@
 # ausdfrost.github.io
 
+A portfolio website I designed with HTML/CSS/JS.
+
 ## Website
-<img width="1290" alt="image" src="https://github.com/ausdfrost/ausdfrost.github.io/assets/65328557/48fd4012-1dd5-4c5e-8ae0-18c59eea1f59">
+<img width="1399" alt="image" src="https://github.com/ausdfrost/ausdfrost.github.io/assets/65328557/17ecece1-bca4-47ad-8c01-08fd41a833d1">
+
 
 
 template: https://startbootstrap.com/template/bare
