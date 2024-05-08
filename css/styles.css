@@ -10938,15 +10938,3 @@ textarea.form-control-lg {
     height: 42vh;
   }  
 }
-
-/* Specific iPhone sizes */
-@media (min-width: 375px) {
-  .wave-container {    
-    height: 70vh;
-  }
-}
-@media (min-width: 414px) {
-  .wave-container {    
-    height: 75vh;
-  }
-}
