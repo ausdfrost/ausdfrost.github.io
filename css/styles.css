@@ -10849,6 +10849,14 @@ textarea.form-control-lg {
   }
 }
 
+/* about me*/
+.aboutme-p {
+  min-width: 50%; 
+  max-width: 70%; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
 /* super cute wave -- src: https://wavier.art/ */
 .wave-container {  
   height: 43vh;
@@ -10870,7 +10878,7 @@ textarea.form-control-lg {
   background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200 113' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 18L33 16C82 11 133 12 200 25C267 37 333 56 400 60C467 63 533 50 600 34C667 18 733 0 800 0C867 0 933 18 1000 25C1067 31 1133 25 1167 22L1200 18V113H1167C1133 113 1067 113 1000 113C933 113 867 113 800 113C733 113 667 113 600 113C533 113 467 113 400 113C333 113 267 113 200 113C133 113 67 113 33 113H0V22.332Z' fill='%23ffffff'/></svg>");
 }
 
-@media(max-width:850px) {
+@media screen and (max-width:850px) {
   .wave-container {    
     height: 45vh;
   }  
@@ -10879,30 +10887,23 @@ textarea.form-control-lg {
   }  
 }
 
-@media(max-width:550px) {
+@media screen and (max-width:550px) {
   .wave-container {    
     height: 55vh;
   }  
 }
-@media(max-width:480px) {
+@media screen and (max-width:480px) {
   .wave-container {    
     height: 60vh;
   }  
 }
-@media(max-width:380px) {
+@media screen and (max-width:380px) {
   .wave-container {    
     height: 70vh;
   }  
 }
-@media(max-width:300px) {
+@media screen and (max-width:300px) {
   .wave-container {    
     height: 85vh;
   }  
-}
-
-.aboutme-p {
-  min-width: 50%; 
-  max-width: 70%; 
-  margin-left: auto; 
-  margin-right: auto;
 }
