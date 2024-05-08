@@ -10859,7 +10859,7 @@ textarea.form-control-lg {
 
 /* super cute wave -- src: https://wavier.art/ */
 .wave-container {  
-  height: 43vh;
+  height: 65vh;
   background-color: var(--myprimarycolor);
   color: #fff;
   position: relative;
@@ -10879,9 +10879,6 @@ textarea.form-control-lg {
 }
 
 @media screen and (max-width:850px) {
-  .wave-container {    
-    height: 45vh;
-  }  
   .wave-container::before {    
     height: 41.5px;
   }  
@@ -10914,6 +10911,11 @@ textarea.form-control-lg {
 @media screen and (min-width:350px) {
   .wave-container {    
     height: 70vh;
+  }  
+}
+@media screen and (min-width:400px) {
+  .wave-container {    
+    height: 65vh;
   }  
 }
 @media screen and (min-width:450px) {
