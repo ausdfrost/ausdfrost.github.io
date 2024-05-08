@@ -10871,8 +10871,32 @@ textarea.form-control-lg {
 }
 
 @media(max-width:850px) {
+  .wave-container {    
+    height: 45vh;
+  }  
   .wave-container::before {    
     height: 41.5px;
+  }  
+}
+
+@media(max-width:550px) {
+  .wave-container {    
+    height: 55vh;
+  }  
+}
+@media(max-width:480px) {
+  .wave-container {    
+    height: 60vh;
+  }  
+}
+@media(max-width:380px) {
+  .wave-container {    
+    height: 70vh;
+  }  
+}
+@media(max-width:300px) {
+  .wave-container {    
+    height: 85vh;
   }  
 }
 
