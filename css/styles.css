@@ -10859,7 +10859,7 @@ textarea.form-control-lg {
 
 /* super cute wave -- src: https://wavier.art/ */
 .wave-container {  
-  height: 65vh;
+  height: 70vh;
   background-color: var(--myprimarycolor);
   color: #fff;
   position: relative;
