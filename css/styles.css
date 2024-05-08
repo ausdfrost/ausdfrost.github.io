@@ -10883,57 +10883,57 @@ textarea.form-control-lg {
     height: 41.5px;
   }  
 }
-@media screen and (min-width:0px) {
+@media screen and (min-device-width:0px) {
   .wave-container {    
     height: 130vh;
   }  
 }
-@media screen and (min-width:150px) {
+@media screen and (min-device-width:150px) {
   .wave-container {    
     height: 115vh;
   }  
 }
-@media screen and (min-width:200px) {
+@media screen and (min-device-width:200px) {
   .wave-container {    
     height: 100vh;
   }  
 }
-@media screen and (min-width:250px) {
+@media screen and (min-device-width:250px) {
   .wave-container {    
     height: 88vh;
   }  
 }
-@media screen and (min-width:300px) {
+@media screen and (min-device-width:300px) {
   .wave-container {    
     height: 78vh;
   }  
 }
-@media screen and (min-width:350px) {
+@media screen and (min-device-width:350px) {
   .wave-container {    
     height: 70vh;
   }  
 }
-@media screen and (min-width:400px) {
+@media screen and (min-device-width:400px) {
   .wave-container {    
     height: 65vh;
   }  
 }
-@media screen and (min-width:450px) {
+@media screen and (min-device-width:450px) {
   .wave-container {    
     height: 62vh;
   }  
 }
-@media screen and (min-width:650px) {
+@media screen and (min-device-width:650px) {
   .wave-container {    
     height: 53vh;
   }  
 }
-@media screen and (min-width:800px) {
+@media screen and (min-device-width:800px) {
   .wave-container {    
     height: 48vh;
   }  
 }
-@media screen and (min-width:1000px) {
+@media screen and (min-device-width:1000px) {
   .wave-container {    
     height: 42vh;
   }  
