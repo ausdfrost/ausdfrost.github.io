@@ -37,7 +37,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
                                 <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
                               </svg>
-                            Email
+                            Say hi 👋
                         </a></li>
                         <!-- dropdown if i ever wanted?
                         <li class="nav-item dropdown">
@@ -55,91 +55,139 @@
             </div>
         </nav>
 
-        <!-- ABOUT ME-->
-        <div class="container" style="max-width: 40%;">
-            <div class="text-center mt-5">
-                <p style="margin-bottom: 0rem;">👋 Hello, my name is...</p>
+        <!-- ABOUT ME + WAVE-->
+        <div class="wave-container">
+            <div class="text-center">
+                <p style="padding-top: 20px; margin-bottom: 0rem;">👋 Hello, my name is...</p>
                 <h1>Aussie Frost</h1>
-                <p class="lead">Data Scientist</p>
+                <p class="lead"><em>Data Scientist</em> | <em>Brooklyn, NY</em></p>
 
-                <p style="margin-bottom: -2rem;">I'm a fourth year Data Science student at the University of Oregon!
-                    I have experience working as a <code>Data Scientist Lead</code> at 
-                    <a style="color: salmon;" href="https://csnl.uoregon.edu/" target="_blank">CSNL</a>, where I 
-                    got to work on research projects involving machine learning, analysis, data processing, and data 
-                    management. My current side-project involves backend development for a web-based game. 
-                    I enjoy developing solutions to use data to it's fullest potential, and I am
-                    always eagar to learn!
-                </p>
+                <div class="aboutme-p">
+                    <p>I'm a fourth year Data Science student at the University of Oregon!
+                        I have experience working as a <code style="color: rgb(234, 156, 234)">Data Scientist Lead</code> at 
+                        <a style="color: rgb(199, 237, 182);" href="https://csnl.uoregon.edu/" target="_blank">CSNL</a>, where I 
+                        got to work on research projects involving machine learning, analysis, data processing, and data 
+                        management. My current side-project involves backend development for a web-based game. 
+                        I enjoy developing solutions to use data to it's fullest potential, and I am
+                        always eagar to learn!
+                    </p>
+                </div>
+
             </div>
 
         </div>
 
         <!-- PROJECTS BRIEF-->
         <div class="container">
-            <hr size="20" style="margin-top: 6rem;">
             <div class="text-center">
                 <h2 id="projects">Projects</h2>
-                <p>Here are some of my favorite projects I've worked on over the past year! Hope you enjoy :)</p>
+                <p>Here are some of my favorite projects I've worked on over the past year!</p>
             </div>
         </div>
 
         <!-- PROJECT CARDS-->
         <div class="container" style="margin-left: 80% auto; margin-right: 80% auto;">
-            <div class="row">
+            <div class="col-sm">
 
-                <div class="col-sm" style="display: flex; justify-content: center;">
-                    <a href="https://github.com/ausdfrost/round_robin_person_decoding" target="_blank" style="text-decoration: inherit; color: inherit;">
-                        
-                        <div class="card text-center" style="width: 18rem;">
-                            <img class="card-img-top" src="images/persondecoding.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h3>Person Decoding Classification Searchlight Analysis</h3>
-                                <p class="card-text">A predictive thought analysis project using Python and SKLearn and high-dimension brain image data.</p>
+                <!--CAHOOTS Data Anonymization-->
+                <div class="row">
+                    <div class="card mb-3" style="max-width: 800px;">
+                        <a href="https://github.com/ausdfrost/data_anonymization_for_crisis_response" target="_blank" style="text-decoration: inherit; color: inherit;">
+                            <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="images/dataanonymization.png" class="card-img" alt="...">
                             </div>
-                        </div>
-                    </a>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                <h3 class="card-title">CAHOOTS Crisis Response Data Anonymization</h3>
+                                <p class="card-text">Data anonymization for a local crisis response organization using natural language processing and data manipulation methods.</p>
+                                <p class="card-text"><small class="text-muted">Updated May 2024</small></p>
+                                </div>
+                            </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
 
-                <div class="col-sm" style="display: flex; justify-content: center;">
-                    <a href="https://github.com/ausdfrost/handwriting_classification_cnn" target="_blank" style="text-decoration: inherit; color: inherit;">
+                <!--CryptKeep Database-->
+                <div class="row">
+                    <div class="card mb-3" style="max-width: 800px;">
+                        <a href="https://cryptkeep.xyz" target="_blank" style="text-decoration: inherit; color: inherit;">
+                            <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="images/cryptkeepdata.png" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                <h3 class="card-title">CryptKeep Game Database Development</h3></h3>
+                                <p class="card-text">Implemented a MongoDB database, server communications, and more for a web-based game.</p>
+                                <p class="card-text"><small class="text-muted">Updated April 2024</small></p>
+                                </div>
+                            </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
 
-                        <div class="card text-center" style="width: 18rem;">
-                            <img class="card-img-top" src="images/convnethandwriting.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h3>Handwriting ConvNet</h3>
+                <!--Handwriting Convolutional Neural Network-->
+                <div class="row">
+                    <div class="card mb-3" style="max-width: 800px;">
+                        <a href="https://github.com/ausdfrost/handwriting_classification_cnn" target="_blank" style="text-decoration: inherit; color: inherit;">
+                            <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="images/convnethandwriting.png" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                <h3 class="card-title">Handwriting Convolutional Neural Net</h3>
                                 <p class="card-text">Predict handwriting using a convolutional neural network implemented with PyTorch.</p>
+                                <p class="card-text"><small class="text-muted">Updated Feb 2024</small></p>
+                                </div>
                             </div>
-                        </div>
-                    </a>
+                            </div>
+                        </a>
+                    </div>
                 </div>
 
-                <div class="col-sm" style="display: flex; justify-content: center;">
-                    <a href="https://github.com/ausdfrost/round_robin_person_decoding/tree/main/preprocessing" target="_blank" style="text-decoration: inherit; color: inherit;">
-                        
-                        <div class="card text-center" style="width: 18rem;">
-                            <img class="card-img-top" src="images/conversion.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h3>Round Robin Data Processing</h3>
+                <!--Person Decoding-->
+                <div class="row">
+                    <div class="card mb-3" style="max-width: 800px;">
+                        <a href="https://github.com/ausdfrost/round_robin_person_decoding" target="_blank" style="text-decoration: inherit; color: inherit;">
+                            <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="images/persondecoding.png" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                <h3 class="card-title">Person Decoding Classification Searchlight Analysis</h3>
+                                <p class="card-text">Predictive thought analysis using Python and SKLearn and high-dimension brain image data.</p>
+                                <p class="card-text"><small class="text-muted">Completed Sept 2023</small></p>
+                                </div>
+                            </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!--Round Robin Data Processing-->
+                <div class="row">
+                    <div class="card mb-3" style="max-width: 800px;">
+                        <a href="https://github.com/ausdfrost/round_robin_person_decoding/preprocessing" target="_blank" style="text-decoration: inherit; color: inherit;">
+                            <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="images/conversion.png" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                <h3 class="card-title">Round Robin Data Standardization and Preprocessing</h3>
                                 <p class="card-text">Cleaning, converting, and managing brain data with Python and Bash scripts.</p>
+                                <p class="card-text"><small class="text-muted">Completed Dec 2023</small></p>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-
-                <!--
-                <div class="col-sm" style="display: flex; justify-content: center;">
-                    <a href="https://cryptkeepapp.github.io" target="_blank" style="text-decoration: inherit; color: inherit;">
-
-                        <div class="card text-center" style="width: 18rem;">
-                            <img class="card-img-top" src="images/cryptkeepdata.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h3>CryptKeep Backend Development</h3>
-                                <p class="card-text">Implemented a MongoDB database, server communications, and more for a web-based game. (ongoing)</p>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </div>
-                -->
 
             </div>
         </div>
@@ -149,7 +197,9 @@
             <hr size="20" style="margin-top: 2rem; margin-bottom: -2rem;">
             
             <footer class="py-3 my-4">
-              <p class="text-center text-muted">Thanks for visiting  | 2024 Aussie Frost</p>
+              <p class="text-center text-muted">Thanks for visiting | Aussie Frost 2024 |
+                <a class="footer-link" href="https://github.com/ausdfrost/ausdfrost.github.io">see site code</a>
+              </p>
             </footer>
           </div>
 
