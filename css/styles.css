@@ -10874,6 +10874,7 @@ textarea.form-control-lg {
   position: sticky;
   top: 55px; /* appear after navbar*/
   z-index: 1;
+  margin-top: -0.03rem;
 }
 
 .wave-container::before {   
